@@ -12,3 +12,4 @@ This deals with SQL commands, interview preparation and query questions and solu
 * https://artoftesting.com/sql-queries-for-interview
 * https://www.toptal.com/sql/interview-questions
 * https://www.edureka.co/blog/interview-questions/sql-query-interview-questions
+* https://towardsdatascience.com/10-problems-to-practice-almost-all-sql-concepts-37545e7c5219 @important
