@@ -13,3 +13,19 @@ This deals with SQL commands, interview preparation and query questions and solu
 * https://www.toptal.com/sql/interview-questions
 * https://www.edureka.co/blog/interview-questions/sql-query-interview-questions
 * https://towardsdatascience.com/10-problems-to-practice-almost-all-sql-concepts-37545e7c5219 @important
+
+
+
+# SQLBootCamp
+
+
+* https://quip.com/2gwZArKuWk7W
+* https://selectstarsql.com/
+* https://leetcode.com/problemset/database/?page=1
+* https://www.linkedin.com/learning/topics/sql
+* https://www.windowfunctions.com/
+* https://www.hackerrank.com/domains/sql
+* https://www.w3schools.com/sql/
+* https://www.codecademy.com/learn/learn-sql
+* https://sqlzoo.net/
+* https://sqlbolt.com/
