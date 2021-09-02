@@ -29,3 +29,10 @@ This deals with SQL commands, interview preparation and query questions and solu
 * https://www.codecademy.com/learn/learn-sql
 * https://sqlzoo.net/
 * https://sqlbolt.com/
+
+
+
+# KudaVenkat
+
+* https://www.youtube.com/watch?v=ZNObiptSMSI&list=PL_nMO-wncU0nYz_BFwHJENd2YWoobA9Ly
+* https://www.youtube.com/watch?v=fvPddKyHxpQ&list=PL6n9fhu94yhXcztdLO7i6mdyaegC8CJwR
