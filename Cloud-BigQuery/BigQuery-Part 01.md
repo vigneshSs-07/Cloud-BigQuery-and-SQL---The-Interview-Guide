@@ -14,14 +14,14 @@
 
 ```sql
 ### DDL Statement to drop table
-DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.customer`
+DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.customer`;
 ```
 
 ### DDL statement to create table
 ```sql
 CREATE TABLE IF NOT EXISTS
   `lucky-leaf-396003.kf_demo_dataset_010.customer` (customer_id int64,
-    order_date date)
+    order_date date);
 ```
 
 ### DDL statement to insert records into table
@@ -32,7 +32,7 @@ INSERT INTO
 VALUES
   (1111, '2023-09-01'),
   (1111,'2023-09-01'),
-  (1222,'2023-09-02')
+  (1222,'2023-09-02');
 ```
 
 ### query to find customers who have made more than one order in a single day.
@@ -55,7 +55,7 @@ GROUP BY
   customer_id,
   order_date
 HAVING
-  COUNT(*) > 1
+  COUNT(*) > 1;
 ```
 
 ## 2. Write a sql query to find the number of times each student attended each exam.Return the result table ordered by student_id and subject_name.
@@ -78,14 +78,14 @@ HAVING
 insert into `lucky-leaf-396003.kf_demo_dataset_010.Students` (student_id, student_name) values (1, 'Alice'),
 (2, 'Bob'),
 (13, 'John'),
-(6, 'Alex')
+(6, 'Alex');
 ```
 
 ### Table2 : Subjects
 ```sql
 insert into `lucky-leaf-396003.kf_demo_dataset_010.Subjects` (subject_name) values ('Math'),
 ('Physics'),
-('Programming')
+('Programming');
 ```
 
 ### Table3 : Examinations
@@ -100,22 +100,22 @@ insert into `lucky-leaf-396003.kf_demo_dataset_010.Examinations` (student_id, su
 (13, 'Programming'),
 (13, 'Physics'),
 (2, 'Math'),
-(1, 'Math')
+(1, 'Math');
 ```
 
 ### Displaying Students table
 ```sql
-select * from `lucky-leaf-396003.kf_demo_dataset_010.Students`
+select * from `lucky-leaf-396003.kf_demo_dataset_010.Students`;
 ```
 
 ### Displaying Examinations table
 ```sql
-select * from `lucky-leaf-396003.kf_demo_dataset_010.Examinations`
+select * from `lucky-leaf-396003.kf_demo_dataset_010.Examinations`;
 ```
 
 ### Displaying Subjects table
 ```sql
-select * from  `lucky-leaf-396003.kf_demo_dataset_010.Subjects`
+select * from  `lucky-leaf-396003.kf_demo_dataset_010.Subjects`;
 ```
 
 ### SQL query
@@ -127,14 +127,14 @@ on t1.student_id = t3.student_id
 join `lucky-leaf-396003.kf_demo_dataset_010.Subjects` t2
 on t2.subject_name = t3.subject_name
 group by t1.student_id,t1.student_name,t2.subject_name
-order by t1.student_id,t2.subject_name
+order by t1.student_id,t2.subject_name;
 ```
 
 ## 3. NEXT USECASE #############
 ### DDL for dropping table
 ```sql
-1. DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.customers`
-2. DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.orders`
+1. DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.customers`;
+2. DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.orders`;
 ```
 
 ### DDL for creating table
@@ -198,7 +198,7 @@ where c.age >= 30;
 select max(o.date_shop) as latest_order_date
 from `lucky-leaf-396003.kf_demo_dataset_010.customers` c
 inner join `lucky-leaf-396003.kf_demo_dataset_010.orders` o on c.customer_id = o.customer_id
-where can_email = 'yes'
+where can_email = 'yes';
 ```
 
 ## 6. Get table information using INFORMATION_SCHEMA
