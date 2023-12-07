@@ -148,7 +148,7 @@ can_email string
 );
 ```
 
-### DDL for recording records into source table
+### DDL for inserting records into source table
 ```sql
 INSERT INTO `lucky-leaf-396003.kf_demo_dataset_010.customers` (customer_id, first_shop, age, rewards, can_email)
 VALUES (1, '2022-03-20', 23, 'yes', 'no'),
