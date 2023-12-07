@@ -61,9 +61,9 @@ HAVING
 ## 2. Write a sql query to find the number of times each student attended each exam.Return the result table ordered by student_id and subject_name.
 ### DDL for dropping table
 ```sql
-1. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Students` (student_id int, student_name string)
-2. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Subjects` (subject_name string)
-3. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Examinations` (student_id int, subject_name string)
+1. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Students` 
+2. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Subjects` 
+3. drop table If  Exists `lucky-leaf-396003.kf_demo_dataset_010.Examinations` 
 ```
 
 ### DDL for creating table
