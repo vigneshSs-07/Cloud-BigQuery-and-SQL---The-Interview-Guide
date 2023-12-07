@@ -12,9 +12,10 @@
 
 ## 1.Write an SQL query to find customers who have made more than one order in a single day.
 
+```sql
 ### DDL Statement to drop table
 DROP TABLE IF EXISTS `lucky-leaf-396003.kf_demo_dataset_010.customer`
-
+```
 ### DDL statement to create table
 CREATE TABLE IF NOT EXISTS
   `lucky-leaf-396003.kf_demo_dataset_010.customer` (customer_id int64,
