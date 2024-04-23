@@ -5,7 +5,7 @@
 > 
 > Author:
   >- Name: "Vignesh Sekar"
-  >- Designation: "Cloud Data Engineer"
+  >- Designation: "Data Engineer"
   >- Tags: [Google Cloud, DataEngineer, Python, PySpark, SQL, BigData]
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
